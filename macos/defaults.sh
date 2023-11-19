@@ -1,6 +1,6 @@
-COMPUTER_NAME="Neo"
+COMPUTER_NAME="Gregs-MacBook-Pro.local"
 LANGUAGES=(en nl)
-LOCALE="en_US@currency=EUR"
+LOCALE="en_US@currency=USD"
 MEASUREMENT_UNITS="Centimeters"
 SCREENSHOTS_FOLDER="${HOME}/Screenshots"
 

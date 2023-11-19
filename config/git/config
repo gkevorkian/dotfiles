@@ -1,9 +1,9 @@
 [user]
-	name = Lars Kappert
-	email = lars@webpro.nl
+	name = Greg Kevorkian
+	email = greg.kevorkian93@gmail.com
 
 [github]
-	user = webpro
+	user = gkevorkian
 
 [core]
 	excludesfile = ~/.config/git/ignore
