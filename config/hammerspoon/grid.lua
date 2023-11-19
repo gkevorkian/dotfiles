@@ -30,7 +30,11 @@ hs.hotkey.bind(mash, "/", function() local win = getWin(); win:moveToScreen(win:
 hs.hotkey.bind(mash, ",", function() hs.grid.snap(getWin()) end)
 
 --- space: maximize window
-hs.hotkey.bind(mash, "space", function() hs.grid.maximizeWindow() end)
+--- hs.hotkey.bind(mash, "space", function() hs.grid.maximizeWindow() end)
 
 --- .: minimize window
 hs.hotkey.bind(mash, ".", function() hs.grid.set(getWin(), '0,0 1x1'); end)
+
+
+--- .: toggle full screen
+hs.hotkey.bind(mash, "space", function() hs.window.focusedWindow():moveToUnit({0, 0, 1, 1}) end)
